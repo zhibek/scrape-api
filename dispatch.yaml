@@ -1,0 +1,7 @@
+application: scrape-api
+# A maximum of 10 dispatch rules are allowed on a free app
+
+dispatch:
+  # Default module serves the typical web resources and all static resources.
+  - url: "*/phantomjs*"
+    module: phantomjs

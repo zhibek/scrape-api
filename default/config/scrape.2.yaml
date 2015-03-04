@@ -1,0 +1,20 @@
+actions:
+  - 
+    type: browse
+    url: http://github.com/
+  - 
+    type: followLink
+    title: Sign in
+  - 
+    type: fillForm
+    submit: Sign in
+    fields:
+      login: john.levermore@zhibek.com
+      password: bishkek91
+  - 
+    type: loop
+    search: '//*[@id="dashboard"]/div[1]/div[contains(@class,"alert")]'
+    filterType: xpath
+    actions:
+      - 
+       type: dumpContext

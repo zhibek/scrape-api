@@ -1,0 +1,14 @@
+application: scrape-api
+version: 1
+module: phantomjs
+api_version: 1
+runtime: custom
+vm: true
+threadsafe: yes
+
+manual_scaling:
+  instances: 1
+
+handlers:
+- url: .*
+  script: dynamic

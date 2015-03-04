@@ -1,0 +1,14 @@
+actions:
+  - 
+    type: browse
+    url: http://www.symfony.com/blog/
+  - 
+    type: followLink
+    title: Security Advisories
+  - 
+    type: loop
+    search: 'h2 > a'
+    filterType: css
+    actions:
+      - 
+       type: dumpContext

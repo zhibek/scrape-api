@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony/yaml": "~2.6",
+        "behat/mink-selenium2-driver": "~1.2",
+        "behat/mink-goutte-driver": "~1.1"
+    }
+}

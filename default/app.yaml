@@ -1,0 +1,9 @@
+application: scrape-api
+version: 1
+module: default
+api_version: 1
+runtime: php
+
+handlers:
+- url: .*
+  script: scripts/index.php
